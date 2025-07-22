@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sabbir45ali.github.io/Portfolio/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -39,3 +40,4 @@
     "vite": "^6.1.0"
   }
 }
+

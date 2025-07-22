@@ -1,36 +1,26 @@
+const base = import.meta.env.BASE_URL;
+
 export const myProjects = [
   {
     id: 1,
     title: "Enginuity",
     description:
-      "A JIS College Of Engineering project presentation competetion website. For promoting and showcasing student projects.",
+      "A JIS College Of Engineering project presentation competition website...",
     subDescription: [
-      "The primary objective of ENGINUITY 2025 is to foster innovation and technical excellence among engineering students by providing a competitive and collaborative platform for showcasing hardware-based engineering models and prototypes.",
-      "The event aims to encourage problem-solving, creativity, and interdisciplinary thinking by addressing real-world technological challenges through hands-on solutions. Additionally, ENGINUITY seeks to promote knowledge exchange, peer learning, and industry-academia interaction through keynote talks, exhibitions, and interactive sessions.",
+      "The primary objective of ENGINUITY 2025 is to foster innovation and technical excellence...",
+      "The event aims to encourage problem-solving, creativity, and interdisciplinary thinking...",
     ],
     href: "https://sabbir45ali.github.io/Enginuity/",
     logo: "",
-    image: "/assets/projects/enginity.jpg",
+    image: `${base}assets/projects/enginity.jpg`,
     tags: [
-      {
-        id: 1,
-        name: "HTML",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 2,
-        name: "CSS",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "JS",
-        path: "/assets/logos/javascript.svg",
-      },
+      { id: 1, name: "HTML", path: `${base}assets/logos/html5.svg` },
+      { id: 2, name: "CSS", path: `${base}assets/logos/css3.svg` },
+      { id: 3, name: "JS", path: `${base}assets/logos/javascript.svg` },
       {
         id: 4,
         name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        path: `${base}assets/logos/tailwindcss.svg`,
       },
     ],
   },
@@ -38,37 +28,25 @@ export const myProjects = [
     id: 2,
     title: "Breast Cancer Detection(FrontEnd)",
     description:
-      "A breast cancer detection web application that utilizes machine learning models to analyze user-uploaded images and provide diagnostic insights.",
+      "A breast cancer detection web application that utilizes machine learning...",
     subDescription: [
-      "Developed a user-friendly interface using Vite.js and React for seamless image uploads and results display.",
-      "Integrated Firebase for secure user authentication and real-time data management.",
-      "Implemented a machine learning model to analyze breast cancer images and provide diagnostic results.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced user experience.",
-      "Ensured data security and privacy compliance by implementing best practices in user data handling.",
+      "Developed a user-friendly interface using Vite.js and React...",
+      "Integrated Firebase for secure user authentication...",
+      "Implemented a machine learning model...",
+      "Designed responsive UI components...",
+      "Ensured data security and privacy compliance...",
     ],
     href: "https://sabbir45ali.github.io/Breast-Cancer--React-/",
     logo: "",
-    image: "/assets/projects/BCD.jpg",
+    image: `${base}assets/projects/BCD.jpg`,
     tags: [
-      {
-        id: 1,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "Firebase",
-        path: "/assets/logos/firebase.svg",
-      },
+      { id: 1, name: "Vite.js", path: `${base}assets/logos/vitejs.svg` },
+      { id: 2, name: "React", path: `${base}assets/logos/react.svg` },
+      { id: 3, name: "Firebase", path: `${base}assets/logos/firebase.svg` },
       {
         id: 4,
         name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        path: `${base}assets/logos/tailwindcss.svg`,
       },
     ],
   },
@@ -76,106 +54,65 @@ export const myProjects = [
     id: 3,
     title: "Breast Cancer Detection(BackEnd)",
     description:
-      "A robust backend for a breast cancer detection application, utilizing Django and Ml for efficient data processing and API interactions.",
+      "A robust backend for a breast cancer detection application...",
     subDescription: [
-      "Developed a RESTful API using Django to handle image uploads and processing.",
-      "Integrated machine learning models to analyze breast cancer images and return diagnostic results.",
-      "Implemented user authentication and authorization using Django's built-in features.",
-      "Ensured secure data handling and storage with FirebaseSQL as the database backend.",
-      "Optimized API performance with caching strategies and asynchronous processing.",
+      "Developed a RESTful API using Django...",
+      "Integrated machine learning models...",
+      "Implemented user authentication...",
+      "Ensured secure data handling...",
+      "Optimized API performance...",
     ],
     href: "https://github.com/Sabbir45ali/Breast-Cancer-Detection-Backend",
     logo: "",
-    image: "/assets/projects/BCD.jpg",
+    image: `${base}assets/projects/BCD.jpg`,
     tags: [
-      {
-        id: 1,
-        name: "Python",
-        path: "/assets/logos/python.svg",
-      },
-      {
-        id: 2,
-        name: "Django",
-        path: "/assets/logos/django.svg",
-      },
-      {
-        id: 3,
-        name: "Fireabase",
-        path: "/assets/logos/firebase.svg",
-      },
-      {
-        id: 4,
-        name: "postman",
-        path: "/assets/logos/postman.svg",
-      },
+      { id: 1, name: "Python", path: `${base}assets/logos/python.svg` },
+      { id: 2, name: "Django", path: `${base}assets/logos/django.svg` },
+      { id: 3, name: "Firebase", path: `${base}assets/logos/firebase.svg` },
+      { id: 4, name: "Postman", path: `${base}assets/logos/postman.svg` },
     ],
   },
   {
     id: 4,
     title: "Addagram",
     description:
-      "A social media application that allows users to share photos, follow friends, and interact through comments and likes.",
+      "A social media application that allows users to share photos...",
     subDescription: [
-      "Developed a full-stack social media application using React for the frontend and C# for the backend.",
-      "Implemented user authentication and authorization using Microsoft Identity Framework.",
-      "Designed a responsive UI with Tailwind CSS for an engaging user experience.",
-      "Integrated Git for version control and collaboration.",
-      "Deployed the application on Microsoft Azure for scalability and reliability.",
+      "Developed a full-stack social media application...",
+      "Implemented user authentication...",
+      "Designed a responsive UI...",
+      "Integrated Git for version control...",
+      "Deployed the app on Microsoft Azure...",
     ],
     href: "https://emrysilio1710.github.io/Social-Media-Application/",
     logo: "",
-    image: "/assets/projects/addagram.jpg",
+    image: `${base}assets/projects/addagram.jpg`,
     tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
+      { id: 1, name: "React", path: `${base}assets/logos/react.svg` },
       {
         id: 2,
-        name: "Tailweind CSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "TailwindCSS",
+        path: `${base}assets/logos/tailwindcss.svg`,
       },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Github",
-        path: "/assets/logos/github-pink.png",
-      },
+      { id: 3, name: "Git", path: `${base}assets/logos/git.svg` },
+      { id: 4, name: "GitHub", path: `${base}assets/logos/github-pink.png` },
     ],
   },
   {
     id: 5,
     title: "Nexa",
-    description:
-      "A humanioid Robot",
+    description: "A humanoid Robot",
     subDescription: [
-      "Nexa is a humanoid robot designed to assist with various tasks, including customer service, information retrieval, and basic interaction.",
-      "The robot is equipped with advanced sensors and AI capabilities to understand and respond to human commands.", 
+      "Nexa is a humanoid robot designed to assist with various tasks...",
+      "Equipped with advanced sensors and AI capabilities...",
     ],
     href: "https://www.facebook.com/JISGroupEducationalInitiatives/posts/a-proud-day-for-jisce-and-every-parent-behind-our-achieverssabbir-ali-and-joy-si/1086098806880733/",
     logo: "",
-    image: "/assets/projects/nexa.jpg",
+    image: `${base}assets/projects/nexa.jpg`,
     tags: [
-      {
-        id: 1,
-        name: "Python",
-        path: "/assets/logos/python.svg",
-      },
-      {
-        id: 2,
-        name: "Raspbeerry Pi",
-        path: "/assets/logos/pi.svg",
-      },
-      {
-        id: 3,
-        name: "Arduino",
-        path: "/assets/logos/arduino.svg",
-      },
+      { id: 1, name: "Python", path: `${base}assets/logos/python.svg` },
+      { id: 2, name: "Raspberry Pi", path: `${base}assets/logos/pi.svg` },
+      { id: 3, name: "Arduino", path: `${base}assets/logos/arduino.svg` },
     ],
   },
 ];
@@ -184,17 +121,17 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "",
-    icon: "public/assets/socials/whatsApp.svg",
+    icon: `${base}assets/socials/whatsApp.svg`,
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/sabbir-45-sam/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: `${base}assets/socials/linkedIn.svg`,
   },
   {
     name: "Github",
     href: "https://github.com/Sabbir45ali",
-    icon: "/assets/logos/github-pink.png",
+    icon: `${base}assets/logos/github-pink.png`,
   },
 ];
 
@@ -210,17 +147,17 @@ export const experiences = [
     ],
   },
   {
-    title: "Higher Secondary School", 
+    title: "Higher Secondary School",
     job: "Sodepure Chandrachur Vidyapith",
     date: "2022",
     contents: [
       "Completed higher secondary education with a specialization in science, focusing on physics, chemistry, and mathematics.",
       "Engaged in various science fairs and competitions, fostering a strong interest in technology and engineering.",
-      "Percentage - 69%", 
+      "Percentage - 69%",
     ],
   },
   {
-    title: "B Tech in Electronics and Communication Engineering",    
+    title: "B Tech in Electronics and Communication Engineering",
     job: "JIS College of Engineering",
     date: "2022-Present",
     contents: [
@@ -230,6 +167,7 @@ export const experiences = [
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Ruksana",
