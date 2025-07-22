@@ -184,7 +184,7 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: "public/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
